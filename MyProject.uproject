@@ -9,18 +9,14 @@
 			"Type": "Runtime",
 			"LoadingPhase": "Default",
 			"AdditionalDependencies": [
-				"UMG",
-				"AIModule"
+				"Engine"
 			]
 		}
 	],
 	"Plugins": [
 		{
 			"Name": "ModelingToolsEditorMode",
-			"Enabled": true,
-			"TargetAllowList": [
-				"Editor"
-			]
+			"Enabled": true
 		},
 		{
 			"Name": "StateTree",
@@ -29,6 +25,13 @@
 		{
 			"Name": "GameplayStateTree",
 			"Enabled": true
+		},
+		{
+			"Name": "VisualStudioTools",
+			"Enabled": false,
+			"SupportedTargetPlatforms": [
+				"Win64"
+			]
 		}
 	]
 }
